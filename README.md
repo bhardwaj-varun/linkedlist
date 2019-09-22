@@ -2,8 +2,8 @@
 
 To compile program
 
- make linklist
+`make linklist`
 
 To run
 
- ./linklist
+`./linklist`
