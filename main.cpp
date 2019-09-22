@@ -16,6 +16,7 @@ int main(){
         printf("----------Linked List-----------\n");
         printf("1. Add at front\n");
         printf("2. Add at End\n");
+        printf("3. Add after node\n");
         printf("Enter choice: ");
         int c;
         scanf("%d", &c);
@@ -27,6 +28,10 @@ int main(){
             break;
         case 2:
             l.addAtEnd(getInput("val"));
+            l.print();
+            break;
+        case 3:
+            l.addAfterNode(getInput("pos"), getInput("val"));
             l.print();
             break;
         default:

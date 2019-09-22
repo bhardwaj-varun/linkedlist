@@ -9,7 +9,7 @@ class LinkList{
         head=nullptr;
     }
     void addAtFront(int);
-    void addAtPosition(int, int); //pos,val
+    void addAfterNode(int, int); //data,val
     void addAtEnd(int);
     void print();
     
